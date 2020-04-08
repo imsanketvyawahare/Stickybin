@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b110eff3-8bbe-4df6-b24c-4cdbbaf8e1d7" name="Default Changelist" comment="" />
+    <list default="true" id="b110eff3-8bbe-4df6-b24c-4cdbbaf8e1d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sanket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sanket.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickyBin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StickyBin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickyBin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/StickyBin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,13 +20,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aCoC9UtXldHm6OigMVnMkMzNoK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -64,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586248806226</updated>
-      <workItem from="1586248821298" duration="11980000" />
+      <workItem from="1586248821298" duration="15491000" />
     </task>
     <servers />
   </component>
@@ -72,9 +87,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1586249456301">
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1586321103871">
       <screen x="0" y="1" width="1920" height="1078" />
     </state>
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.1.1920.1078@0.1.1920.1078" timestamp="1586249456301" />
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.1.1920.1078@0.1.1920.1078" timestamp="1586321103871" />
   </component>
 </project>
