@@ -14,7 +14,7 @@ def home(request):
         s.slug = slug
         s.save()
         data = Sticky.objects.all().order_by('-date')[0:5]
-        link = "127.0.0.1:8000/app/"+slug
+        link = "127.0.0.1:8000/"+slug
         return render(request, 'application.html', {"Status": "Your Sticky is created!","link": link,"data": data})
     else:
         s = Sticky.objects.all().order_by('-date')[0:5]
@@ -40,3 +40,6 @@ def display(request, code):
     except Sticky.DoesNotExist:
         return render(request, 'not_found.html')
 
+
+def api(request):
+    return render(request, 'api.html')

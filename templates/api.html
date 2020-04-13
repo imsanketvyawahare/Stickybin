@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Api -StickyBin</title>
+    {% load static %}
+    <link href="{% static 'api.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body style="background-color: #eee; ">
+
+<!--Navigation Menu-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">StickyBin Api</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'home' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Api</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--Navigation Menu End-->
+<!--Api Doc-->
+<div class="container text-justify">
+    <h2 class="mt-4">Overview</h2>
+    <h4 class="mt-4">What is meant by API ?</h4>
+    <p>API stands for Application Programming Interface. It is one of the most important
+        part of moder web applications. API's make the communication between two devices very easy.
+        Let us understand with the help of small example. Suppose john goes to hotel because he is hungry.
+        He calls the waiter and gives his order.
+        He don't directly talk with chef, but the waiter acted as communication medium between john and chef. So, here the waiter
+        acted as an API. Thats how api's works.
+        API's were design so that application built on different platform's can communicate with each other. Like if we have React frontend and Django Backend,
+        Then to establish communication between these two dissimilar platforms, we need API.
+    </p>
+    <p>When we want to establish communication between two different systems, we use common interface for both to talk or communicate.
+        That common interface is API. These communication takes place securely depending upon the authentication used between the two systems.
+        API's also helps in systematically exposing our database, without just entirely giving out all our information.
+        For example, we have Github users api, which takes username as parameter and return all the information of that user, excluding private information like
+        passwords, private repositories etc. Thus, here API helped them to systematically design which information should be exposed and thus api's helps in
+        better web application development.
+    </p>
+
+    <h4>What is REST API ?</h4>
+    <p>Representational State Transfer Application programming interface also generally called as REST API, is an Architecture of how the API's should be designed.
+        It's not any technology, but it's a style of developing API's. Previously we had SOAP (Simple Object Access protocol) based API's which used to send data
+        in XML format which was heavy and thus it used to consume larger bandwidth of network, as the SOAP responses were heavy. But, REST responses are
+        mostly JSON based, which is very light weight and don't consume large bandwidth making web application performant. Another thing is SOAP can only work in XML
+        whereas REST uses, JSON, Plain text, HTML and XML. In REST there is slight disadvantage as it is not much secure. It is mostly used for publically available
+        API's but it is not good mechanish to be used for private API's.
+     </p>
+    <p>
+     </p>
+
+    <h4>How Stickybin Api Works</h4>
+    <p>Here, the REST api sends JSON response to you of all the titles, actual sticky note and also the short code. You can use this Data to get all
+        the information available at the stickybin as it is opensource project, and everything is available publically.
+    </p>
+    <p>
+        You can just hit the api and get the json response with title of notes, along with actual note and the date of creation.
+    </p>
+    <p class="text-center code">curl http://127.0.0.1:8000/api/v1/beta/</p>
+    <p>Here is the code by which you can post data to the stickybin api, with the help of three parameter i.e "title",
+        "note","slug".
+    </p>
+    <p class="text-center code">curl -X POST -d 'title="&lt;your title&gt;"note="&lt;your note&gt;"&slug="&lt;slug code&gt;"' http://127.0.0.1:8000/api/v1/beta/</p>
+
+</div>
+
+<!--Api Doc End-->
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>

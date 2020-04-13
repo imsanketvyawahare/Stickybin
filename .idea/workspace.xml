@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b110eff3-8bbe-4df6-b24c-4cdbbaf8e1d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/api.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/api.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sanket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sanket.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StickyBin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StickyBin/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StickyBin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/StickyBin/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/display.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/not_found.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/not_found.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,6 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
@@ -79,21 +85,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586248806226</updated>
-      <workItem from="1586248821298" duration="15491000" />
+      <workItem from="1586248821298" duration="21063000" />
+      <workItem from="1586451778742" duration="7176000" />
+      <workItem from="1586546280431" duration="2662000" />
+      <workItem from="1586676691111" duration="1339000" />
+      <workItem from="1586751716534" duration="719000" />
     </task>
+    <task id="LOCAL-00001" summary="created working api">
+      <created>1586329846157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586329846157</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created working api">
+      <created>1586329861079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586329861079</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created working api" />
+    <option name="LAST_COMMIT_MESSAGE" value="created working api" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="531" y="76" width="848" height="924" key="CommitChangelistDialog2" timestamp="1586329845702">
+    <state x="531" y="76" width="848" height="924" key="CommitChangelistDialog2" timestamp="1586329860936">
       <screen x="0" y="1" width="1920" height="1078" />
     </state>
-    <state x="531" y="76" width="848" height="924" key="CommitChangelistDialog2/0.1.1920.1078@0.1.1920.1078" timestamp="1586329845702" />
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1586321103871">
+    <state x="531" y="76" width="848" height="924" key="CommitChangelistDialog2/0.1.1920.1078@0.1.1920.1078" timestamp="1586329860936" />
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1586460493604">
       <screen x="0" y="1" width="1920" height="1078" />
     </state>
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.1.1920.1078@0.1.1920.1078" timestamp="1586321103871" />
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.1.1920.1078@0.1.1920.1078" timestamp="1586460493604" />
   </component>
 </project>

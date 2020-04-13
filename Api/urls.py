@@ -3,5 +3,5 @@ from . import api
 
 
 urlpatterns = [
-    path('', api.API.as_view())
+    path('', api.API.as_view()),
 ]

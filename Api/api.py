@@ -22,10 +22,12 @@ from rest_framework import status
 
 
 class API(APIView):
+
     def get(self, request):
         s = Sticky.objects.all()
         serializer = StickyApi(s, many=True)
         return JsonResponse(serializer.data, safe=False)
+
 
     def post(self, request):
         serializer = StickyApi(data=request.data)
